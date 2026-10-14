@@ -1,0 +1,25 @@
+{
+  "name": "달콤한 균형 | 혈당과 디저트 기록",
+  "short_name": "달콤한 균형",
+  "description": "혈당·몸무게·당화혈색소·디저트를 기록하는 나만의 달력",
+  "lang": "ko",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f8f7fc",
+  "theme_color": "#f8f6ff",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
