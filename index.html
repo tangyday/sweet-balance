@@ -78,6 +78,12 @@
 .loading-heart{font-size:16px;animation:loadingPulse 1.7s ease-in-out infinite}
 @keyframes loadingPulse{0%,100%{opacity:.6;transform:scale(.95)}50%{opacity:1;transform:scale(1.03)}}
 @media(prefers-reduced-motion:reduce){.loading-heart{animation:none}}
+/* 정보 입력 예시(placeholder)만 은은하게 표시 — 입력한 값은 그대로 유지 */
+.field input::placeholder,
+.field textarea::placeholder {
+  color: #bcb8c9;
+  opacity: 1;
+}
 </style>
 </head>
 <body>
